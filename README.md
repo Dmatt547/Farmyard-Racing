@@ -1,80 +1,150 @@
-# EcoQuest: Planetary Puzzle
+# Farmyard Racing
 
 ## Overview
-EcoQuest: Planetary Puzzle is a puzzle-based game where players work to restore the environment by solving challenges related to real-world issues such as pollution, deforestation, and waste management.
+Farmyard Racing is an arcade-style racing game that combines high-speed competition with farming mechanics. Players race through farm environments while balancing two objectives: achieving the fastest lap times and completing farming tasks such as planting seeds and harvesting crops.
 
-The game combines engaging gameplay with educational elements, encouraging players to think critically while learning about environmental sustainability. :contentReference[oaicite:0]{index=0}  
+The game introduces a unique twist to traditional racing by integrating sustainability and agriculture into gameplay, creating both a fun and educational experience. 
 
 ---
 
 ## Game Concept
-Players take on the role of an environmental hero tasked with restoring ecosystems across different levels. Each level presents a unique environmental problem that must be solved through interactive puzzles.
+Farmyard Racing blends two core gameplay elements:
+- Racing for speed and lap times  
+- Farming for strategic advantage and scoring  
 
-As players progress, the difficulty increases, requiring more strategic thinking and problem-solving skills. :contentReference[oaicite:1]{index=1}  
+Players must decide whether to focus on speed, farming, or a balance of both to win. This dual-objective system adds depth and strategy beyond standard racing games.
 
 ---
 
 ## Core Gameplay
-- Solve environmental puzzles to progress through levels  
-- Restore ecosystems (e.g. reforestation, oil cleanup, waste management)  
-- Use limited resources strategically  
-- Complete levels within time constraints  
+- Drive around farm-based tracks using arcade-style controls  
+- Plant seeds and farm areas while racing  
+- Collect power-ups to gain advantages or disrupt opponents  
+- Complete laps while hitting checkpoints  
+- Compete against AI or other players  
 
-Each level represents a real-world environmental challenge and requires players to interact with game elements to succeed. :contentReference[oaicite:2]{index=2}  
+### Key Mechanics
+- Movement: Acceleration, braking, and turning  
+- Time-based challenges  
+- Randomised power-ups (e.g. speed boost, freeze, mud puddle)  
+- Farming system tied directly into scoring  
+
+---
+
+## Game Modes
+
+### Seeding Sprint
+- Time-based mode  
+- Players plant as many seeds as possible within a time limit  
+- Focus on efficiency and speed  
+
+### Harvest Grand Prix
+- Traditional racing mode with AI or multiplayer  
+- Combines racing and farming objectives  
+
+### Additional Modes
+- Harvest Cycle (season-based progression challenges)  
+- Farm Frenzy (randomised racing challenges)   
 
 ---
 
 ## Features
-- Puzzle-based progression system  
-- Increasing difficulty across levels  
-- Educational focus on environmental issues  
-- Strategic resource and time management  
-- Interactive and engaging gameplay  
+- Racing and farming hybrid gameplay  
+- Multiple game modes  
+- Dynamic power-up system  
+- AI opponents with difficulty scaling  
+- Reset system for smoother gameplay  
+- Progression and replayability features  
 
 ---
 
-## Target Audience
-- Primary: Children (8–12)  
-- Secondary: Teenagers (13–18)  
-- Tertiary: Adults (19+)  
+## Art and Design
+- Stylised arcade visuals with farm-themed environments  
+- Earthy colour palette with bright highlights for power-ups  
+- Clean and minimal UI design  
 
-The game is designed to be accessible and educational, with simple controls for younger players and increasing complexity for older audiences. :contentReference[oaicite:3]{index=3}  
-
----
-
-## Platforms and Technologies
-- Unity Engine (C#)  
-- Cross-platform support (PC and Mobile)  
+The UI provides:
+- Lap counter  
+- Checkpoints  
+- Race time and lap time  
+- Farming percentage  
 
 ---
 
-## Development Approach
-The project was developed as part of a university assignment using an iterative design process:
-- Concept and prototype development  
-- Core mechanics implementation  
-- Level design and testing  
-- Visual design and refinement  
-- User testing and feedback  
+## Controls (PC)
+- W / Up Arrow – Accelerate  
+- S / Down Arrow – Brake / Reverse  
+- A / D – Steer  
+- R – Reset vehicle  
+- 1 – Return to main menu  
+
+---
+
+## How to Run the Game
+
+Farmyard Racing  
+By Group 9 - Daniel Mattioli, Jay Martiensen, Kostas Hatzistefanou
+
+- Navigate into the `Build/Windows` folder and run the `.exe` file to start the game.
+
+---
+
+## Gameplay Instructions
+
+- Use the WASD or Arrow keys to control your vehicle.
+- Press R to reset your vehicle if it gets stuck or flips over.
+- Complete the race by passing through all checkpoints and finishing two full laps.
+- Collect power-ups along the track to gain advantages such as speed boosts or increased farming rate.
+- Monitor your Farming Progress and Lap Time on the HUD to balance both objectives.
+- After completing the race, view your results on the Race Complete Screen.
+- Select "End Race" to play again or "Quit" to return to the main menu.
+
+---
+
+## Technical Stack
+- Unreal Engine 5  
+- Blueprints  
+- Quixel Bridge (Megascans)  
+- Arcade-style physics system  
+
+---
+
+## System Design Highlights
+- Balanced power-up system using probability weighting  
+- Arcade-style responsive vehicle physics  
+- AI opponents with scalable difficulty  
+- Performance optimised for smooth gameplay  
+
+---
+
+## My Contribution
+- Scrum Master (Agile coordination and sprint planning)  
+- Game design and mechanics  
+- UI implementation  
+- Gameplay systems (movement, farming, power-ups)  
+- Testing and iteration  
 
 ---
 
 ## Challenges
-- Designing engaging puzzles that are both fun and educational  
-- Balancing difficulty across different age groups  
-- Ensuring gameplay remains intuitive while increasing complexity  
+- Balancing racing and farming mechanics  
+- Designing fair power-up systems  
+- Managing team collaboration and version control  
+- Delivering a working prototype within time constraints  
 
 ---
 
 ## Future Improvements
-- More diverse levels and environmental scenarios  
-- Enhanced visuals and animations  
-- Improved user interface and experience  
-- Additional gameplay mechanics  
+- Full multiplayer support  
+- More tracks and environments  
+- Expanded vehicle mechanics  
+- Improved UI and animations  
+- More advanced AI behaviour  
 
 ---
 
-## What I Learned
-- Game design principles and mechanics  
-- Balancing gameplay with educational content  
-- Designing for different target audiences  
-- Iterative development and playtesting  
+## Key Takeaways
+- Designing hybrid gameplay systems  
+- Working in an Agile development team  
+- Unreal Engine 5 development workflow  
+- Game balancing and player experience design  
